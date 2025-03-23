@@ -1,0 +1,59 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Header styling */
+h1 {
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* Player info section */
+#player-info {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Button styling */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+/* Status message styling */
+.status {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #555;
+}
+
+/* Optional: Make status messages stand out on specific conditions */
+#status-msg.success {
+    color: green;
+    font-weight: bold;
+}
+
+#status-msg.error {
+    color: red;
+    font-weight: bold;
+}

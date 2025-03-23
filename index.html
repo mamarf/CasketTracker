@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alt1 Casket Tracker</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #007bff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        .status {
+            margin-top: 20px;
+            font-size: 14px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <h1>Alt1 Casket Tracker</h1>
+    <div id="player-info">
+        <p>Player Name: <span id="player-name">Loading...</span></p>
+    </div>
+    <button id="capture-btn">Capture Screenshot</button>
+    <div class="status" id="status-msg"></div>
+
+    <script>
+        // Example of integrating with Alt1 APIs
+        document.getElementById("capture-btn").addEventListener("click", function() {
+            // Status message update
+            const status = document.getElementById("status-msg");
+            status.textContent = "Taking screenshot...";
+
+            // Placeholder for screenshot functionality (to be implemented with Alt1 API)
+            setTimeout(() => {
+                status.textContent = "Screenshot captured and ready to send to Discord!";
+            }, 2000);
+        });
+
+        // Placeholder for fetching player name using Alt1 API (to be implemented)
+        document.getElementById("player-name").textContent = "Your Player Name";
+    </script>
+    <script src="https://runeapps.org/lib/a1lib.js"></script>
+</body>
+</html>

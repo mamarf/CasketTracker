@@ -1,0 +1,10 @@
+{
+    "appid": "casket-tracker",
+    "appname": "Casket Tracker",
+    "appicon": "iconcasket.png",  
+    "description": "Tracks rewards from RuneScape 3's Treasure Trail caskets.",
+    "version": "1.0.0",
+    "authors": ["Your Name"],
+    "webpage": "index.html",  
+    "apiversion": "1"
+}
